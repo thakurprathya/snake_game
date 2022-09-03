@@ -155,3 +155,21 @@ window.addEventListener("keydown", e=>{  //anykey pressed on keyboard
             break;
     }
 });
+
+//adding logic for ondisplay buttons visible for mobile/tablets
+document.getElementById("up").addEventListener("click", ()=>{
+    inputDirection.x=0;
+    inputDirection.y=-1;
+});
+document.getElementById("left").addEventListener("click", ()=>{
+    inputDirection.x=-1;
+    inputDirection.y=0;
+});
+document.getElementById("right").addEventListener("click", ()=>{
+    inputDirection.x=1;
+    inputDirection.y=0;
+});
+document.getElementById("down").addEventListener("click", ()=>{
+    inputDirection.x=0;
+    inputDirection.y=1;
+});

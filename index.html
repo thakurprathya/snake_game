@@ -7,11 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Run</title>
     <link rel="stylesheet" href="CSS/stylesheet.css">  <!--linking stylesheet-->
+    <link rel="stylesheet" href="CSS/responsive.css">  <!--linking stylesheet-->
 </head>
 <body>
     <div class="body">
         <div id="score">Score: 0</div>
         <div id="hiscore">Hi-Score: 0</div>
+        <div class="controller">
+            <button id="up">&uarr;</button>
+            <div class="left-right">
+                <button id="left">&larr;</button>
+                <div class="spacebox"></div>
+                <button id="right">&rarr;</button>
+            </div>
+            <button id="down">&darr;</button>
+        </div>
         <div id="board"></div>
     </div>
 
