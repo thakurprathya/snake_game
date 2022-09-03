@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+.body{
+    background: url("../img/bg.jpg");  min-height: 100vh; background-size: 100vw 100vh; background-repeat: no-repeat;  /*background-size prop is use to size the background image*/
+    display: flex; align-items: center; justify-content: center;}
+
+#board{ /*linear gradient prop is use to provide a gradient color */
+    background: linear-gradient(rgb(153, 238, 153),rgb(243, 243, 109)); width: 43vw; height: 90vh; border: 2px solid black;
+    display: grid; grid-template-rows: repeat(25,1fr); /*making it grid,1fr refers to per unit width, and we are creating 25 rows*/
+    grid-template-columns: repeat(25,1fr);/*similar dividing in columns as we did in rows*/}
+
+.snake-head{  /*creating head diff as it will help us seprate it from remaining body*/
+    background: linear-gradient(red,yellow); border: 2px solid purple;  border-radius: 8px;}
+
+.snake-body{ /*vmin is another unit*/
+    background-color:purple; border: .25vmin solid white;  border-radius: 20px;}
+
+.food{
+    background:linear-gradient(blue,violet); border: .25vmin solid black; border-radius: 8px;}
+
+#score{
+    position: absolute;  top: 60px; right: 200px; font-size: 40px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; color: white;}
+
+#hiscore{
+    position: absolute;  top: 10px; right: 140px; font-size: 40px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; color: white;}
