@@ -20,7 +20,7 @@
     #hiscore{font-size: 30px;  right:33px;}
     #score{font-size: 30px;  right:71px; top:47px;}
     .controller button{height: 13vh;}
-    .controller{bottom: 111px; right: 18px;}
+    .controller{bottom: 72px; right: 18px;}
     #board{height: 83vh;  top: 33px;}
 }
 @media screen and (max-height:380px) {
@@ -28,8 +28,8 @@
     #score{top: 50;  right: 73px;}
     .controller{right: 14px;  bottom: 80px;}
 }
-@media screen and (max-height:270px) {
+@media screen and (max-height:255px) {
     #board{height: 89vh;  top: 10px;}
-    .controller button{height: 13vh;}
+    .controller button{height: 16vh; width: 10vw;}
     .controller{bottom: 32px;}
 }
