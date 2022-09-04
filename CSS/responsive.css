@@ -2,7 +2,7 @@
     #hiscore{right: 54px;}
     #score{right: 110px;}
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:1100px){
     #board{width: 65vw;  height: 70vh;  position:absolute;  top: 100px;  left: 15px;}
     .controller{display: flex;  bottom: 150px;  right: 12px;}
     #hiscore{right: 25px;}
@@ -16,10 +16,20 @@
     .controller button{width: 20vw; height: 8vh;}
     .spacebox{width: 20vw;}
 }
-@media screen and (max-height:470px) and (min-width:793px){
-    #hiscore{right:53px;}
-    #score{right:108px;}
+@media screen and (max-height:470px){
+    #hiscore{font-size: 30px;  right:33px;}
+    #score{font-size: 30px;  right:71px; top:47px;}
     .controller button{height: 13vh;}
-    .controller{bottom: 111px; right: 34px;}
+    .controller{bottom: 111px; right: 18px;}
     #board{height: 83vh;  top: 33px;}
+}
+@media screen and (max-height:380px) {
+    #hiscore{right: 28px;}
+    #score{top: 50;  right: 73px;}
+    .controller{right: 14px;  bottom: 80px;}
+}
+@media screen and (max-height:270px) {
+    #board{height: 89vh;  top: 10px;}
+    .controller button{height: 13vh;}
+    .controller{bottom: 32px;}
 }
