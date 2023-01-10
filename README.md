@@ -1,2 +1,4 @@
-# snake_game
-A playable and enjoyable snake game using HTML, CSS, Vanilla JavaScript
+# Snake Run Game
+created using HTML, CSS &amp; JavaScript
+
+App Link : https://thakurprathya.github.io/snake_game/
